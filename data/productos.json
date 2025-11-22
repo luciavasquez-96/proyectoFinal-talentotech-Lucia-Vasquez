@@ -1,0 +1,5 @@
+[
+  {"id":"1","nombre":"Cuadro Pared Boca Juniors","descripcion":"Cuadro decorativo 3 partes CABJ","img":"./imagenes/bocaJuniors.png","precio":33000},
+  {"id":"2","nombre":"Cuadro Pared \"La Selección\"","descripcion":"Cuadro decorativo Argentina Campeón","img":"./imagenes/argentinaCuadro.png","precio":40000},
+  {"id":"3","nombre":"Cuadro Pared River Plate","descripcion":"Cuadro decorativo 3 partes CARP","img":"./imagenes/riverPlate.png","precio":33000}
+]

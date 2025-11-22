@@ -26,6 +26,14 @@
                 <li><a href="#">Inicio</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
                 <li><a href="#seccionProductos">Productos</a></li>
+
+                 <li>
+                    <a href="./pages/carrito.html" class="carrito">🛒
+
+                        <span id="contador-carrito">0</span>
+                    </a>
+                </li>
+
             </ul>
         </nav>
 
@@ -55,32 +63,8 @@
 
                 <h3>Algunos de nuestros artículos</h3>
 
-                <div class="contenedor-tarjetas">
-
-                    <article class="contenedor-card">
-                        <img src="./imagenes/bocaJuniors.png" alt="cuadroBocaJuniors">
-                        <h4>Cuadro Pared Boca Juniors</h4>
-                        <p> Cuadro decorativo 3 partes CABJ</p>
-                        <p>$33000</p>
-                        <button type="button"><i class="fa-duotone fa-solid fa-cart-plus"></i></button>
-                    </article>
-
-
-                    <article class="contenedor-card">
-                        <img src="./imagenes/argentinaCuadro.png" alt="cuadroSelecciónArgentina">
-                        <h4>Cuadro Pared "La Selección"</h4>
-                        <p>Cuadro decorativo Argentina Campeón</p>
-                        <p>$40000</p>
-                        <button type="button"><i class="fa-duotone fa-solid fa-cart-plus"></i></button>
-                    </article>
-
-                    <article class="contenedor-card">
-                        <img src="./imagenes/riverPlate.png" alt="cuadroRiverPlate">
-                        <h4>Cuadro Pared River Plate</h4>
-                        <p>Cuadro decorativo 3 partes CARP</p>
-                        <p>$33000</p>
-                        <button type="button"><i class="fa-duotone fa-solid fa-cart-plus"></i></button>
-                    </article>
+                <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+<!--los productos se traen desde index.js-->
 
                 </div>
 
@@ -101,6 +85,8 @@
         <p>Created by Lucia | 2025</p>
 
     </footer>
+
+<script src="./js/index.js" type="module"></script>
 
 </body>
 

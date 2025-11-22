@@ -28,7 +28,7 @@
                 <li><a href="#">Contacto</a></li>
                 <li><a href="../index.html#seccionProductos">Productos</a></li>
                 <li>
-                    <a href="./pages/carrito.html" class="carrito">🛒
+                    <a href="#" class="carrito">🛒
 
                         <span id="contador-carrito">0</span>
                     </a>
@@ -42,24 +42,16 @@
 
     <main>
 
-        <div class="contenedor-formulario">
 
-            <h1>CONTACTO</h1>
+        <h1>Carrito de Compras</h1>
+        <section id="contenedor-carrito">
 
-            <form action="https://formspree.io/f/mrbavlnr" method="POST" class="formulario">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="8" cols="30" required></textarea>
-
-                <button type="submit">Enviar</button>
-            </form>
+        </section>
+      
+        <div class="acciones-carrito" id="acciones-carrito">
 
         </div>
+
 
     </main>
 
@@ -75,7 +67,8 @@
 
     </footer>
 
-<script src="../js/contacto.js"type="module"></script>
+
+<script src="../js/carrito.js" type="module"></script>
 
 </body>
 
